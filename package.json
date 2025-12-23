@@ -234,6 +234,132 @@
 						"default": false,
 						"description": "%configuration.gitShowOutput%",
 						"order": 27
+					},
+					"git-buttons.showGitFetch": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitFetch%",
+						"order": 28
+					},
+					"git-buttons.showGitFetchPrune": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitFetchPrune%",
+						"order": 29
+					},
+					"git-buttons.showGitFetchAll": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitFetchAll%",
+						"order": 30
+					},
+					"git-buttons.showGitMerge": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitMerge%",
+						"order": 31
+					},
+					"git-buttons.showGitRebase": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitRebase%",
+						"order": 32
+					},
+					"git-buttons.showGitBranch": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitBranch%",
+						"order": 33
+					},
+					"git-buttons.showGitBranchFrom": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitBranchFrom%",
+						"order": 34
+					},
+					"git-buttons.showGitRenameBranch": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitRenameBranch%",
+						"order": 35
+					},
+					"git-buttons.showGitDeleteBranch": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitDeleteBranch%",
+						"order": 36
+					},
+					"git-buttons.showGitDeleteRemoteBranch": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitDeleteRemoteBranch%",
+						"order": 37
+					},
+					"git-buttons.showGitCommit": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommit%",
+						"order": 38
+					},
+					"git-buttons.showGitCommitAmend": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitAmend%",
+						"order": 39
+					},
+					"git-buttons.showGitCommitSigned": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitSigned%",
+						"order": 40
+					},
+					"git-buttons.showGitRebaseAbort": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitRebaseAbort%",
+						"order": 41
+					},
+					"git-buttons.showGitCommitNoVerify": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitNoVerify%",
+						"order": 42
+					},
+					"git-buttons.showGitAddCoAuthors": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitAddCoAuthors%",
+						"order": 43
+					},
+					"git-buttons.showGitCopyPatch": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCopyPatch%",
+						"order": 44
+					},
+					"git-buttons.showGitShareCloudPatch": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitShareCloudPatch%",
+						"order": 45
+					},
+					"git-buttons.showGitStashStaged": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitStashStaged%",
+						"order": 46
+					},
+					"git-buttons.showGitStashDropAll": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitStashDropAll%",
+						"order": 47
+					},
+					"git-buttons.showGitStashView": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitStashView%",
+						"order": 48
 					}
 				}
 			}
@@ -400,6 +526,132 @@
 				"command": "git.showOutput",
 				"title": "%command.gitShowOutput%",
 				"icon": "$(terminal)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.fetch",
+				"title": "%command.gitFetch%",
+				"icon": "$(repo-fetch)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.fetchPrune",
+				"title": "%command.gitFetchPrune%",
+				"icon": "$(repo-fetch)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.fetchAll",
+				"title": "%command.gitFetchAll%",
+				"icon": "$(repo-sync)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.merge",
+				"title": "%command.gitMerge%",
+				"icon": "$(git-merge)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.rebase",
+				"title": "%command.gitRebase%",
+				"icon": "$(git-pull-request)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.branch",
+				"title": "%command.gitBranch%",
+				"icon": "$(git-branch-create)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.branchFrom",
+				"title": "%command.gitBranchFrom%",
+				"icon": "$(git-branch)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.renameBranch",
+				"title": "%command.gitRenameBranch%",
+				"icon": "$(edit)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.deleteBranch",
+				"title": "%command.gitDeleteBranch%",
+				"icon": "$(trash)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.deleteRemoteBranch",
+				"title": "%command.gitDeleteRemoteBranch%",
+				"icon": "$(remote)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commit",
+				"title": "%command.gitCommit%",
+				"icon": "$(check)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitAmend",
+				"title": "%command.gitCommitAmend%",
+				"icon": "$(edit)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitSigned",
+				"title": "%command.gitCommitSigned%",
+				"icon": "$(verified)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.rebaseAbort",
+				"title": "%command.gitRebaseAbort%",
+				"icon": "$(circle-slash)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitNoVerify",
+				"title": "%command.gitCommitNoVerify%",
+				"icon": "$(layers)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.addCoAuthors",
+				"title": "%command.gitAddCoAuthors%",
+				"icon": "$(organization)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.copyPatch",
+				"title": "%command.gitCopyPatch%",
+				"icon": "$(clippy)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.shareCloudPatch",
+				"title": "%command.gitShareCloudPatch%",
+				"icon": "$(cloud)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.stashStaged",
+				"title": "%command.gitStashStaged%",
+				"icon": "$(diff)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.stashDropAll",
+				"title": "%command.gitStashDropAll%",
+				"icon": "$(trash)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.stashView",
+				"title": "%command.gitStashView%",
+				"icon": "$(eye)"
 			}
 		],
 		"menus": {
@@ -540,6 +792,111 @@
 					"group": "navigation@27"
 				},
 				{
+					"when": "scmProvider == git && config.git-buttons.showGitFetch && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.fetch",
+					"group": "navigation@28"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitFetchPrune && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.fetchPrune",
+					"group": "navigation@29"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitFetchAll && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.fetchAll",
+					"group": "navigation@30"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitMerge && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.merge",
+					"group": "navigation@31"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRebase && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.rebase",
+					"group": "navigation@32"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitBranch && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.branch",
+					"group": "navigation@33"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitBranchFrom && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.branchFrom",
+					"group": "navigation@34"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRenameBranch && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.renameBranch",
+					"group": "navigation@35"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitDeleteBranch && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.deleteBranch",
+					"group": "navigation@36"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitDeleteRemoteBranch && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.deleteRemoteBranch",
+					"group": "navigation@37"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommit && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commit",
+					"group": "navigation@38"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAmend && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitAmend",
+					"group": "navigation@39"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitSigned && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitSigned",
+					"group": "navigation@40"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRebaseAbort && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.rebaseAbort",
+					"group": "navigation@41"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitNoVerify && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitNoVerify",
+					"group": "navigation@42"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitAddCoAuthors && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.addCoAuthors",
+					"group": "navigation@43"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCopyPatch && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.copyPatch",
+					"group": "navigation@44"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitShareCloudPatch && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.shareCloudPatch",
+					"group": "navigation@45"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStashStaged && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.stashStaged",
+					"group": "navigation@46"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStashDropAll && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.stashDropAll",
+					"group": "navigation@47"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStashView && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.stashView",
+					"group": "navigation@48"
+				},
+				{
 					"when": "scmProvider == git && config.git-buttons.showGitPull && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.pull",
 					"group": "inline@1"
@@ -673,6 +1030,111 @@
 					"when": "scmProvider == git && config.git-buttons.showGitShowOutput && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.showOutput",
 					"group": "inline@27"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitFetch && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.fetch",
+					"group": "inline@28"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitFetchPrune && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.fetchPrune",
+					"group": "inline@29"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitFetchAll && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.fetchAll",
+					"group": "inline@30"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitMerge && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.merge",
+					"group": "inline@31"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRebase && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.rebase",
+					"group": "inline@32"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitBranch && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.branch",
+					"group": "inline@33"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitBranchFrom && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.branchFrom",
+					"group": "inline@34"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRenameBranch && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.renameBranch",
+					"group": "inline@35"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitDeleteBranch && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.deleteBranch",
+					"group": "inline@36"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitDeleteRemoteBranch && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.deleteRemoteBranch",
+					"group": "inline@37"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommit && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commit",
+					"group": "inline@38"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAmend && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitAmend",
+					"group": "inline@39"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitSigned && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitSigned",
+					"group": "inline@40"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRebaseAbort && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.rebaseAbort",
+					"group": "inline@41"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitNoVerify && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitNoVerify",
+					"group": "inline@42"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitAddCoAuthors && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.addCoAuthors",
+					"group": "inline@43"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCopyPatch && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.copyPatch",
+					"group": "inline@44"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitShareCloudPatch && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.shareCloudPatch",
+					"group": "inline@45"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStashStaged && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.stashStaged",
+					"group": "inline@46"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStashDropAll && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.stashDropAll",
+					"group": "inline@47"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStashView && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.stashView",
+					"group": "inline@48"
 				}
 			]
 		}
