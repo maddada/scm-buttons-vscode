@@ -325,24 +325,6 @@
 						"description": "%configuration.gitCommitNoVerify%",
 						"order": 42
 					},
-					"git-buttons.showGitAddCoAuthors": {
-						"type": "boolean",
-						"default": false,
-						"description": "%configuration.gitAddCoAuthors%",
-						"order": 43
-					},
-					"git-buttons.showGitCopyPatch": {
-						"type": "boolean",
-						"default": false,
-						"description": "%configuration.gitCopyPatch%",
-						"order": 44
-					},
-					"git-buttons.showGitShareCloudPatch": {
-						"type": "boolean",
-						"default": false,
-						"description": "%configuration.gitShareCloudPatch%",
-						"order": 45
-					},
 					"git-buttons.showGitStashStaged": {
 						"type": "boolean",
 						"default": false,
@@ -360,6 +342,276 @@
 						"default": false,
 						"description": "%configuration.gitStashView%",
 						"order": 48
+					},
+					"git-buttons.showGitCreateTag": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCreateTag%",
+						"order": 49
+					},
+					"git-buttons.showGitDeleteTag": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitDeleteTag%",
+						"order": 50
+					},
+					"git-buttons.showGitDeleteRemoteTag": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitDeleteRemoteTag%",
+						"order": 51
+					},
+					"git-buttons.showGitCherryPick": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCherryPick%",
+						"order": 52
+					},
+					"git-buttons.showGitCherryPickAbort": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCherryPickAbort%",
+						"order": 53
+					},
+					"git-buttons.showGitMergeAbort": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitMergeAbort%",
+						"order": 54
+					},
+					"git-buttons.showGitPushForce": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitPushForce%",
+						"order": 55
+					},
+					"git-buttons.showGitPushToForce": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitPushToForce%",
+						"order": 56
+					},
+					"git-buttons.showGitPushTags": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitPushTags%",
+						"order": 57
+					},
+					"git-buttons.showGitPushWithTags": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitPushWithTags%",
+						"order": 58
+					},
+					"git-buttons.showGitPushWithTagsForce": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitPushWithTagsForce%",
+						"order": 59
+					},
+					"git-buttons.showGitAddRemote": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitAddRemote%",
+						"order": 60
+					},
+					"git-buttons.showGitRemoveRemote": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitRemoveRemote%",
+						"order": 61
+					},
+					"git-buttons.showGitStageAllTracked": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitStageAllTracked%",
+						"order": 62
+					},
+					"git-buttons.showGitStageAllUntracked": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitStageAllUntracked%",
+						"order": 63
+					},
+					"git-buttons.showGitStageAllMerge": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitStageAllMerge%",
+						"order": 64
+					},
+					"git-buttons.showGitCleanAllTracked": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCleanAllTracked%",
+						"order": 65
+					},
+					"git-buttons.showGitCleanAllUntracked": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCleanAllUntracked%",
+						"order": 66
+					},
+					"git-buttons.showGitCommitEmpty": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitEmpty%",
+						"order": 67
+					},
+					"git-buttons.showGitCommitStagedNoVerify": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitStagedNoVerify%",
+						"order": 68
+					},
+					"git-buttons.showGitCommitAmendNoVerify": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitAmendNoVerify%",
+						"order": 69
+					},
+					"git-buttons.showGitCommitSignedNoVerify": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitSignedNoVerify%",
+						"order": 70
+					},
+					"git-buttons.showGitCommitAllNoVerify": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitAllNoVerify%",
+						"order": 71
+					},
+					"git-buttons.showGitCommitAllAmendNoVerify": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitAllAmendNoVerify%",
+						"order": 72
+					},
+					"git-buttons.showGitCommitAllSignedNoVerify": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitAllSignedNoVerify%",
+						"order": 73
+					},
+					"git-buttons.showGitCommitStagedAmendNoVerify": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitStagedAmendNoVerify%",
+						"order": 74
+					},
+					"git-buttons.showGitCommitStagedSignedNoVerify": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitStagedSignedNoVerify%",
+						"order": 75
+					},
+					"git-buttons.showGitCommitEmptyNoVerify": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCommitEmptyNoVerify%",
+						"order": 76
+					},
+					"git-buttons.showGitRestoreCommitTemplate": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitRestoreCommitTemplate%",
+						"order": 77
+					},
+					"git-buttons.showGitCheckoutDetached": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCheckoutDetached%",
+						"order": 78
+					},
+					"git-buttons.showGitClone": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitClone%",
+						"order": 79
+					},
+					"git-buttons.showGitCloneRecursive": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCloneRecursive%",
+						"order": 80
+					},
+					"git-buttons.showGitInit": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitInit%",
+						"order": 81
+					},
+					"git-buttons.showGitRefresh": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitRefresh%",
+						"order": 82
+					},
+					"git-buttons.showGitOpenAllChanges": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitOpenAllChanges%",
+						"order": 83
+					},
+					"git-buttons.showGitViewChanges": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitViewChanges%",
+						"order": 84
+					},
+					"git-buttons.showGitViewStagedChanges": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitViewStagedChanges%",
+						"order": 85
+					},
+					"git-buttons.showGitViewUntrackedChanges": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitViewUntrackedChanges%",
+						"order": 86
+					},
+					"git-buttons.showGitCopyCommitId": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCopyCommitId%",
+						"order": 87
+					},
+					"git-buttons.showGitCopyCommitMessage": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCopyCommitMessage%",
+						"order": 88
+					},
+					"git-buttons.showGitCloseAllDiffEditors": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCloseAllDiffEditors%",
+						"order": 89
+					},
+					"git-buttons.showGitOpenMergeEditor": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitOpenMergeEditor%",
+						"order": 90
+					},
+					"git-buttons.showGitCreateWorktree": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitCreateWorktree%",
+						"order": 91
+					},
+					"git-buttons.showGitOpenWorktree": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitOpenWorktree%",
+						"order": 92
+					},
+					"git-buttons.showGitDeleteWorktree": {
+						"type": "boolean",
+						"default": false,
+						"description": "%configuration.gitDeleteWorktree%",
+						"order": 93
 					}
 				}
 			}
@@ -619,24 +871,6 @@
 			},
 			{
 				"category": "Source Control Buttons",
-				"command": "git.addCoAuthors",
-				"title": "%command.gitAddCoAuthors%",
-				"icon": "$(organization)"
-			},
-			{
-				"category": "Source Control Buttons",
-				"command": "git.copyPatch",
-				"title": "%command.gitCopyPatch%",
-				"icon": "$(clippy)"
-			},
-			{
-				"category": "Source Control Buttons",
-				"command": "git.shareCloudPatch",
-				"title": "%command.gitShareCloudPatch%",
-				"icon": "$(cloud)"
-			},
-			{
-				"category": "Source Control Buttons",
 				"command": "git.stashStaged",
 				"title": "%command.gitStashStaged%",
 				"icon": "$(diff)"
@@ -652,6 +886,276 @@
 				"command": "git.stashView",
 				"title": "%command.gitStashView%",
 				"icon": "$(eye)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.createTag",
+				"title": "%command.gitCreateTag%",
+				"icon": "$(tag)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.deleteTag",
+				"title": "%command.gitDeleteTag%",
+				"icon": "$(trash)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.deleteRemoteTag",
+				"title": "%command.gitDeleteRemoteTag%",
+				"icon": "$(remote)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.cherryPick",
+				"title": "%command.gitCherryPick%",
+				"icon": "$(git-cherry-pick)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.cherryPickAbort",
+				"title": "%command.gitCherryPickAbort%",
+				"icon": "$(circle-slash)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.mergeAbort",
+				"title": "%command.gitMergeAbort%",
+				"icon": "$(circle-slash)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.pushForce",
+				"title": "%command.gitPushForce%",
+				"icon": "$(arrow-up)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.pushToForce",
+				"title": "%command.gitPushToForce%",
+				"icon": "$(cloud-upload)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.pushTags",
+				"title": "%command.gitPushTags%",
+				"icon": "$(tag)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.pushWithTags",
+				"title": "%command.gitPushWithTags%",
+				"icon": "$(arrow-up)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.pushWithTagsForce",
+				"title": "%command.gitPushWithTagsForce%",
+				"icon": "$(arrow-up)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.addRemote",
+				"title": "%command.gitAddRemote%",
+				"icon": "$(add)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.removeRemote",
+				"title": "%command.gitRemoveRemote%",
+				"icon": "$(trash)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.stageAllTracked",
+				"title": "%command.gitStageAllTracked%",
+				"icon": "$(diff-added)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.stageAllUntracked",
+				"title": "%command.gitStageAllUntracked%",
+				"icon": "$(diff-added)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.stageAllMerge",
+				"title": "%command.gitStageAllMerge%",
+				"icon": "$(diff-added)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.cleanAllTracked",
+				"title": "%command.gitCleanAllTracked%",
+				"icon": "$(clear-all)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.cleanAllUntracked",
+				"title": "%command.gitCleanAllUntracked%",
+				"icon": "$(clear-all)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitEmpty",
+				"title": "%command.gitCommitEmpty%",
+				"icon": "$(check)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitStagedNoVerify",
+				"title": "%command.gitCommitStagedNoVerify%",
+				"icon": "$(check)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitAmendNoVerify",
+				"title": "%command.gitCommitAmendNoVerify%",
+				"icon": "$(edit)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitSignedNoVerify",
+				"title": "%command.gitCommitSignedNoVerify%",
+				"icon": "$(verified)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitAllNoVerify",
+				"title": "%command.gitCommitAllNoVerify%",
+				"icon": "$(checklist)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitAllAmendNoVerify",
+				"title": "%command.gitCommitAllAmendNoVerify%",
+				"icon": "$(tasklist)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitAllSignedNoVerify",
+				"title": "%command.gitCommitAllSignedNoVerify%",
+				"icon": "$(issue-closed)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitStagedAmendNoVerify",
+				"title": "%command.gitCommitStagedAmendNoVerify%",
+				"icon": "$(tasklist)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitStagedSignedNoVerify",
+				"title": "%command.gitCommitStagedSignedNoVerify%",
+				"icon": "$(issue-closed)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.commitEmptyNoVerify",
+				"title": "%command.gitCommitEmptyNoVerify%",
+				"icon": "$(check)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.restoreCommitTemplate",
+				"title": "%command.gitRestoreCommitTemplate%",
+				"icon": "$(discard)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.checkoutDetached",
+				"title": "%command.gitCheckoutDetached%",
+				"icon": "$(git-commit)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.clone",
+				"title": "%command.gitClone%",
+				"icon": "$(repo-clone)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.cloneRecursive",
+				"title": "%command.gitCloneRecursive%",
+				"icon": "$(repo-clone)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.init",
+				"title": "%command.gitInit%",
+				"icon": "$(add)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.refresh",
+				"title": "%command.gitRefresh%",
+				"icon": "$(refresh)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.openAllChanges",
+				"title": "%command.gitOpenAllChanges%",
+				"icon": "$(go-to-file)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.viewChanges",
+				"title": "%command.gitViewChanges%",
+				"icon": "$(list-flat)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.viewStagedChanges",
+				"title": "%command.gitViewStagedChanges%",
+				"icon": "$(list-flat)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.viewUntrackedChanges",
+				"title": "%command.gitViewUntrackedChanges%",
+				"icon": "$(list-flat)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.copyCommitId",
+				"title": "%command.gitCopyCommitId%",
+				"icon": "$(clippy)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.copyCommitMessage",
+				"title": "%command.gitCopyCommitMessage%",
+				"icon": "$(clippy)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.closeAllDiffEditors",
+				"title": "%command.gitCloseAllDiffEditors%",
+				"icon": "$(close-all)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.openMergeEditor",
+				"title": "%command.gitOpenMergeEditor%",
+				"icon": "$(git-merge)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.createWorktree",
+				"title": "%command.gitCreateWorktree%",
+				"icon": "$(file-directory-create)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.openWorktree",
+				"title": "%command.gitOpenWorktree%",
+				"icon": "$(folder-opened)"
+			},
+			{
+				"category": "Source Control Buttons",
+				"command": "git.deleteWorktree",
+				"title": "%command.gitDeleteWorktree%",
+				"icon": "$(trash)"
 			}
 		],
 		"menus": {
@@ -867,21 +1371,6 @@
 					"group": "navigation@42"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitAddCoAuthors && config.git-buttons.commandsLocation == 'Inline'",
-					"command": "git.addCoAuthors",
-					"group": "navigation@43"
-				},
-				{
-					"when": "scmProvider == git && config.git-buttons.showGitCopyPatch && config.git-buttons.commandsLocation == 'Inline'",
-					"command": "git.copyPatch",
-					"group": "navigation@44"
-				},
-				{
-					"when": "scmProvider == git && config.git-buttons.showGitShareCloudPatch && config.git-buttons.commandsLocation == 'Inline'",
-					"command": "git.shareCloudPatch",
-					"group": "navigation@45"
-				},
-				{
 					"when": "scmProvider == git && config.git-buttons.showGitStashStaged && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.stashStaged",
 					"group": "navigation@46"
@@ -895,6 +1384,231 @@
 					"when": "scmProvider == git && config.git-buttons.showGitStashView && config.git-buttons.commandsLocation == 'Inline'",
 					"command": "git.stashView",
 					"group": "navigation@48"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCreateTag && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.createTag",
+					"group": "navigation@49"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitDeleteTag && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.deleteTag",
+					"group": "navigation@50"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitDeleteRemoteTag && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.deleteRemoteTag",
+					"group": "navigation@51"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCherryPick && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.cherryPick",
+					"group": "navigation@52"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCherryPickAbort && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.cherryPickAbort",
+					"group": "navigation@53"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitMergeAbort && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.mergeAbort",
+					"group": "navigation@54"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitPushForce && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.pushForce",
+					"group": "navigation@55"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitPushToForce && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.pushToForce",
+					"group": "navigation@56"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitPushTags && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.pushTags",
+					"group": "navigation@57"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitPushWithTags && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.pushWithTags",
+					"group": "navigation@58"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitPushWithTagsForce && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.pushWithTagsForce",
+					"group": "navigation@59"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitAddRemote && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.addRemote",
+					"group": "navigation@60"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRemoveRemote && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.removeRemote",
+					"group": "navigation@61"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStageAllTracked && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.stageAllTracked",
+					"group": "navigation@62"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStageAllUntracked && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.stageAllUntracked",
+					"group": "navigation@63"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStageAllMerge && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.stageAllMerge",
+					"group": "navigation@64"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCleanAllTracked && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.cleanAllTracked",
+					"group": "navigation@65"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCleanAllUntracked && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.cleanAllUntracked",
+					"group": "navigation@66"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitEmpty && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitEmpty",
+					"group": "navigation@67"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedNoVerify && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitStagedNoVerify",
+					"group": "navigation@68"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAmendNoVerify && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitAmendNoVerify",
+					"group": "navigation@69"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitSignedNoVerify && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitSignedNoVerify",
+					"group": "navigation@70"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAllNoVerify && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitAllNoVerify",
+					"group": "navigation@71"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAllAmendNoVerify && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitAllAmendNoVerify",
+					"group": "navigation@72"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAllSignedNoVerify && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitAllSignedNoVerify",
+					"group": "navigation@73"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedAmendNoVerify && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitStagedAmendNoVerify",
+					"group": "navigation@74"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedSignedNoVerify && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitStagedSignedNoVerify",
+					"group": "navigation@75"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitEmptyNoVerify && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.commitEmptyNoVerify",
+					"group": "navigation@76"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRestoreCommitTemplate && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.restoreCommitTemplate",
+					"group": "navigation@77"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCheckoutDetached && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.checkoutDetached",
+					"group": "navigation@78"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitClone && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.clone",
+					"group": "navigation@79"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCloneRecursive && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.cloneRecursive",
+					"group": "navigation@80"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitInit && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.init",
+					"group": "navigation@81"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRefresh && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.refresh",
+					"group": "navigation@82"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitOpenAllChanges && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.openAllChanges",
+					"group": "navigation@83"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitViewChanges && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.viewChanges",
+					"group": "navigation@84"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitViewStagedChanges && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.viewStagedChanges",
+					"group": "navigation@85"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitViewUntrackedChanges && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.viewUntrackedChanges",
+					"group": "navigation@86"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCopyCommitId && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.copyCommitId",
+					"group": "navigation@87"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCopyCommitMessage && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.copyCommitMessage",
+					"group": "navigation@88"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCloseAllDiffEditors && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.closeAllDiffEditors",
+					"group": "navigation@89"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitOpenMergeEditor && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.openMergeEditor",
+					"group": "navigation@90"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCreateWorktree && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.createWorktree",
+					"group": "navigation@91"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitOpenWorktree && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.openWorktree",
+					"group": "navigation@92"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitDeleteWorktree && config.git-buttons.commandsLocation == 'Inline'",
+					"command": "git.deleteWorktree",
+					"group": "navigation@93"
 				},
 				{
 					"when": "scmProvider == git && config.git-buttons.showGitPull && config.git-buttons.commandsLocation == 'More Actions'",
@@ -1107,21 +1821,6 @@
 					"group": "inline@42"
 				},
 				{
-					"when": "scmProvider == git && config.git-buttons.showGitAddCoAuthors && config.git-buttons.commandsLocation == 'More Actions'",
-					"command": "git.addCoAuthors",
-					"group": "inline@43"
-				},
-				{
-					"when": "scmProvider == git && config.git-buttons.showGitCopyPatch && config.git-buttons.commandsLocation == 'More Actions'",
-					"command": "git.copyPatch",
-					"group": "inline@44"
-				},
-				{
-					"when": "scmProvider == git && config.git-buttons.showGitShareCloudPatch && config.git-buttons.commandsLocation == 'More Actions'",
-					"command": "git.shareCloudPatch",
-					"group": "inline@45"
-				},
-				{
 					"when": "scmProvider == git && config.git-buttons.showGitStashStaged && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.stashStaged",
 					"group": "inline@46"
@@ -1135,6 +1834,231 @@
 					"when": "scmProvider == git && config.git-buttons.showGitStashView && config.git-buttons.commandsLocation == 'More Actions'",
 					"command": "git.stashView",
 					"group": "inline@48"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCreateTag && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.createTag",
+					"group": "inline@49"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitDeleteTag && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.deleteTag",
+					"group": "inline@50"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitDeleteRemoteTag && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.deleteRemoteTag",
+					"group": "inline@51"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCherryPick && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.cherryPick",
+					"group": "inline@52"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCherryPickAbort && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.cherryPickAbort",
+					"group": "inline@53"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitMergeAbort && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.mergeAbort",
+					"group": "inline@54"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitPushForce && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.pushForce",
+					"group": "inline@55"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitPushToForce && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.pushToForce",
+					"group": "inline@56"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitPushTags && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.pushTags",
+					"group": "inline@57"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitPushWithTags && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.pushWithTags",
+					"group": "inline@58"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitPushWithTagsForce && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.pushWithTagsForce",
+					"group": "inline@59"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitAddRemote && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.addRemote",
+					"group": "inline@60"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRemoveRemote && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.removeRemote",
+					"group": "inline@61"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStageAllTracked && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.stageAllTracked",
+					"group": "inline@62"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStageAllUntracked && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.stageAllUntracked",
+					"group": "inline@63"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitStageAllMerge && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.stageAllMerge",
+					"group": "inline@64"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCleanAllTracked && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.cleanAllTracked",
+					"group": "inline@65"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCleanAllUntracked && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.cleanAllUntracked",
+					"group": "inline@66"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitEmpty && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitEmpty",
+					"group": "inline@67"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedNoVerify && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitStagedNoVerify",
+					"group": "inline@68"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAmendNoVerify && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitAmendNoVerify",
+					"group": "inline@69"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitSignedNoVerify && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitSignedNoVerify",
+					"group": "inline@70"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAllNoVerify && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitAllNoVerify",
+					"group": "inline@71"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAllAmendNoVerify && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitAllAmendNoVerify",
+					"group": "inline@72"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitAllSignedNoVerify && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitAllSignedNoVerify",
+					"group": "inline@73"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedAmendNoVerify && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitStagedAmendNoVerify",
+					"group": "inline@74"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitStagedSignedNoVerify && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitStagedSignedNoVerify",
+					"group": "inline@75"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCommitEmptyNoVerify && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.commitEmptyNoVerify",
+					"group": "inline@76"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRestoreCommitTemplate && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.restoreCommitTemplate",
+					"group": "inline@77"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCheckoutDetached && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.checkoutDetached",
+					"group": "inline@78"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitClone && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.clone",
+					"group": "inline@79"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCloneRecursive && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.cloneRecursive",
+					"group": "inline@80"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitInit && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.init",
+					"group": "inline@81"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitRefresh && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.refresh",
+					"group": "inline@82"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitOpenAllChanges && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.openAllChanges",
+					"group": "inline@83"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitViewChanges && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.viewChanges",
+					"group": "inline@84"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitViewStagedChanges && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.viewStagedChanges",
+					"group": "inline@85"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitViewUntrackedChanges && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.viewUntrackedChanges",
+					"group": "inline@86"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCopyCommitId && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.copyCommitId",
+					"group": "inline@87"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCopyCommitMessage && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.copyCommitMessage",
+					"group": "inline@88"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCloseAllDiffEditors && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.closeAllDiffEditors",
+					"group": "inline@89"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitOpenMergeEditor && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.openMergeEditor",
+					"group": "inline@90"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitCreateWorktree && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.createWorktree",
+					"group": "inline@91"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitOpenWorktree && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.openWorktree",
+					"group": "inline@92"
+				},
+				{
+					"when": "scmProvider == git && config.git-buttons.showGitDeleteWorktree && config.git-buttons.commandsLocation == 'More Actions'",
+					"command": "git.deleteWorktree",
+					"group": "inline@93"
 				}
 			]
 		}
